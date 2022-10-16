@@ -8,7 +8,63 @@
     <script src = "Drum_Kit_JS.js"></script>
     <link rel = "stylesheet" href = "Drum_Kit_CSS.css">
 </head>
+<!-- 
+You have a div with a class of keys, that holds more divs
+containing data-keys with a class of key. 
+Data-keys are numbers that represent keys on a keyboard
+We can use these to make something happen when a key is pressed, 
+in this case a clip of audio. We're also gonna tie that to 
+the css of that element, making it grow by a scale factor, and 
+have a background
+For text like this, where a keyboard letter is supposed to make
+something happen (aka keyboard input), <kbd> is the standard
+tag to use
+-->
 <body>
-    
+    <div class = "keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+        </div>
+    </div>
+    <div class = "keys">
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+        </div>
+    </div>
+    <div class = "keys">
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+        </div>
+    </div>
+    <div class = "keys">
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+        </div>
+    </div>
+    <div class = "keys">
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+        </div>
+    </div>
+    <div class = "keys">
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+        </div>
+    </div>
+    <div class = "keys">
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+        </div>
+    </div>
+    <div class = "keys">
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+        </div>
+    </div>
+    <div class = "keys">
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+        </div>
+    </div>
 </body>
 </html>
